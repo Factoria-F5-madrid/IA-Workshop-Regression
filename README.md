@@ -411,35 +411,6 @@ Los valores bajan a medida que sube la potencia, y la caida es cada vez mas lent
 
 ---
 
-## Resumen del flujo completo
-
-```
-Dataset con datos reales
-        |
-        v
-Explorar y limpiar los datos
-        |
-        v
-Graficar para entender la forma
-        |
-        v
-Dividir en entrenamiento y prueba
-        |
-        v
-Probar distintos grados (1 al 5)
-        |
-        v
-Elegir el grado con menor error en prueba
-        |
-        v
-Entrenar modelo final y graficar curva
-        |
-        v
-Interpretar coeficientes y hacer predicciones
-```
-
----
-
 ## Nota sobre el uso de sklearn
 
 sklearn no tiene una funcion llamada "regresion polinomial" directamente. Lo que hace internamente es:
